@@ -6,6 +6,8 @@ import UserMonthReport from './routes/user.routes.js';
 const app = express();
 
 console.log(process.env.PORT);
+console.log(process.env.PORT);
+console.log(process.env.PORT);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
